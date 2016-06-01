@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Hidden Page</h1>
+<!--Invisible Form-->
+<form name="hiddenForm" method="POST">
+<input name="formInfo" type="text" value="{{ data }}">
+<br><input type="submit" value="Submit"><br>
+</form>
+
+<!--Javascript that submits the form when page is loaded-->
+<script type="text/javascript">
+function submitform()
+{
+    document.forms["hiddenForm"].submit();
+}
+submitform()
+</script>
+
+
+</body>
+</html>

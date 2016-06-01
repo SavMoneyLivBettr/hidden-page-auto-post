@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Visible form-->
+<form name="visibleForm" method="POST">
+<input name="formInfo" type="text" value="{{ data }}">
+<br><input type="submit" value="Submit"><br>
+</form>
+<!--Invisible iframe that submits a form in the background automatically-->
+<iframe src="{{ hidden }}" width="0" height="0" style="border:none"></iframe>
+
+</body>
+</html>
