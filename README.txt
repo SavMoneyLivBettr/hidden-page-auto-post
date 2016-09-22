@@ -16,4 +16,3 @@ For now, the invisible form is reading data from test_data_file.txt, which for n
 To run the server, and access the page using your web browser, make sure all of the necessary files are present, and that you have Flask.
 Run the script,and go to 127.0.0.1:5000 on your web browser to access the local server, and to view the site.
 
-Everything else is explained through the comments in the source code.  If you have any other questions, please feel free to email me at jacobsskowronek@gmail.com.
